@@ -1,0 +1,50 @@
+img {
+  width: 100%;
+}
+
+.header-color {
+  background-color: #ffff00;
+}
+
+.yellow-bg:hover {
+  background-color: #ffd600;
+}
+
+.yellow-bg {
+  background-color: #ffff00;
+}
+.imagen {
+  width: 100%;
+  height: 250px;
+  overflow: hidden; /*oculta lo que sobra*/
+  display: flex;
+  position: relative;
+  justify-content: center; /*Este y el de abajo van aca*/
+  align-items: center; /*porque aplica a lo de adentro*/
+  object-fit: cover;
+}
+
+.search {
+  padding: 1rem;
+  position: absolute;
+  width: 40%;
+  background-color: black;
+  color: white;
+}
+
+.pack {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
